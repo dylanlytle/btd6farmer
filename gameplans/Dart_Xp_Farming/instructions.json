@@ -1,0 +1,14 @@
+{
+    "1": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "DART",
+                "LOCATION": [
+                    0.8333333333333334,       
+                    0.8972222222222223        
+                ]
+            }
+        }
+    ]
+}

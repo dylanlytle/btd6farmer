@@ -198,9 +198,9 @@ maps = {
     "BLOODY_PUDDLES" : [12, 5],
     "WORKSHOP" : [12, 6],
     "QUAD" : [13, 1],
-    "DARK_CASTLE" : [13, 2],
-    "MUDDY_PUDDLES" : [13, 3],
-    "OUCH" : [13, 4]
+    "DARK_CASTLE" : [13, 4],
+    "MUDDY_PUDDLES" : [13, 5],
+    "OUCH" : [13, 6]
 }
 
 upgrade_keybinds = {
