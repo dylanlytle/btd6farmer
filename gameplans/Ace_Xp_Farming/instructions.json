@@ -1,0 +1,375 @@
+{
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "NINJA",
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ALCHEMIST",
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.1,
+                    0.30
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.23,
+                    0.30
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.07,
+                    0.525
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.07,
+                    0.61
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.07,
+                    0.695
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.07,
+                    0.775
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.2
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.28
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.36
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.44
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.52
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.6
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.68
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.7,
+                    0.76
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.6,
+                    0.8
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ACE",
+                "LOCATION": [
+                    0.6,
+                    0.88
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "WAIT",
+            "ARGUMENTS": {
+                "TIME": 0.5
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": false
+            }
+        }
+    ],
+    "32": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "33": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "34": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "35": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "36": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "37": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "38": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "39": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "40": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "41": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "42": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "43": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "44": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "45": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "46": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "47": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "48": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "49": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "50": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "51": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "52": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "53": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "54": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "55": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "56": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "57": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "58": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "59": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "60": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ]
+}

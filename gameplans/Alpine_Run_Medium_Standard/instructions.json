@@ -1,0 +1,480 @@
+{
+    "1": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HERO",
+                "LOCATION": [
+                    0.2536613942589338,
+                    0.31875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "WAIT",
+            "ARGUMENTS": {
+                "TIME": 0.5
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": false
+            }
+        }
+    ],
+    "2": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "3": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "4": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "5": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "6": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "7": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BANANA",
+                "LOCATION": [
+                    0.5448154657293497,
+                    0.46145833333333336
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "8": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "9": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "10": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5448154657293497,
+                    0.46145833333333336
+                ],
+                "UPGRADE_PATH": [
+                    1,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "11": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "12": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5448154657293497,
+                    0.46145833333333336
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "13": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "14": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5448154657293497,
+                    0.46145833333333336
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "15": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5448154657293497,
+                    0.46145833333333336
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    2,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "16": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "DART",
+                "LOCATION": [
+                    0.093,
+                    0.44
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.09080257762155829,
+                    0.4239583333333333
+                ],
+                "TARGET": "LAST",
+                "TYPE": "REGULAR"
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.09080257762155829,
+                    0.4239583333333333
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "17": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "18": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BANANA",
+                "LOCATION": [
+                    0.546572934973638,
+                    0.7791666666666667
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "19": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.546572934973638,
+                    0.7791666666666667
+                ],
+                "UPGRADE_PATH": [
+                    1,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "20": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.546572934973638,
+                    0.7791666666666667
+                ],
+                "UPGRADE_PATH": [
+                    1,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "21": [
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.09080257762155829,
+                    0.4239583333333333
+                ],
+                "UPGRADE_PATH": [
+                    3,
+                    2,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "22": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "23": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "24": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "25": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "26": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "27": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "28": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "29": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "30": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "32": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "33": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "34": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "35": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "36": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "37": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "38": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "39": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "40": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "41": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "42": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "43": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "44": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "45": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "46": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "47": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "48": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "49": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "50": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "51": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "52": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "53": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "54": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "55": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "56": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "57": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "58": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "59": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ],
+    "60": [
+        {
+            "INSTRUCTION_TYPE": "START"
+        }
+    ]
+}

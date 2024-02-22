@@ -150,7 +150,7 @@ maps = {
     "WINTER_PARK" : [2, 4],
     "CARVED" : [2, 5],
     "PARK_PATH" : [2, 6],
-    "ALPINE_RUN" : [3, 1],
+    "ALPINE_RUN" : [3, 4],
     "FROZEN_OVER" : [3, 2],
     "IN_THE_LOOP" : [3, 3],
     "CUBISM" : [3, 4],

@@ -197,6 +197,7 @@ class Bot():
                 break
 
             current_round = self.getRound()
+            print(f"Current round{current_round}")
 
             if current_round != None:
                 # Saftey net; use abilites
@@ -360,18 +361,20 @@ class Bot():
         
         # Start game
         elif instruction_type == "START":
-            if "ARGUMENTS" in instruction and "FAST_FORWARD " in instruction["ARGUMENTS"]:
-                self.fast_forward = instruction["ARGUMENTS"]["FASTFORWARD"]
+            print(instruction)
+            if "ARGUMENTS" in instruction and "FAST_FORWARD" in instruction["ARGUMENTS"]:
+                self.fast_forward = instruction["ARGUMENTS"]["FAST_FORWARD"]
+                print(f"fast_forward set to {self.fast_forward}")
                 
             self.start_first_round()
 
-            log.debug("First Round Started")
+            print("First Round Started")
 
         # Wait a given time
         elif instruction_type == "WAIT":
             time.sleep(instruction["ARGUMENTS"]["TIME"])
 
-            log.debug(f"Waiting for {instruction['ARGUMENTS']['TIME']} second(s)")
+            print(f"Waiting for {instruction['ARGUMENTS']['TIME']} second(s)")
         
         else:
             # Maybe raise exception or just ignore?
@@ -390,6 +393,11 @@ class Bot():
         return (time.time() - last_used) >= (cooldown / m)
 
     def start_first_round(self):
+        print("Waiting for Start")
+        waiting_for_next_round = False
+        while waiting_for_next_round is False:
+            time.sleep(0.5) # add a short timeout to avoid spamming the cpu
+            waiting_for_next_round = self.checkFor("ready_for_next_round")
         if self.fast_forward:
             simulatedinput.send_key("space", amount=2)
         else:
