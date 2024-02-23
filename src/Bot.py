@@ -14,6 +14,8 @@ import recognition
 import simulatedinput
 import monitor
 import gameplan
+import statictest
+from fuzzywuzzy import fuzz
 from logger import logger as log
 
 # Definently fix this 
@@ -481,10 +483,36 @@ class Bot():
         
         self.wait_for_loading() # wait for loading screen
 
-    def select_map(self):
-        map_page = static.maps[self.settings["MAP"]][0]
-        map_index = static.maps[self.settings["MAP"]][1]
+    def getMapNameAtIndex(self, index):
+        # Get the top left and bottom right points
+        top_left_scaled = monitor.scaling(static.map_selection["MAPS_TOP_LEFT"])
+        bottom_right_scaled = monitor.scaling(static.map_selection["MAPS_BOTTOM_RIGHT"])
+        # need tuple for monitor.scaling call but just care about scaling the first value
+        text_height_scaled = monitor.scaling([static.map_selection["MAPS_TEXT_HEIGHT"], 0])[0] 
         
+        # Setting up screen capture area using top left and bottom right points.  Assume evenly spaced 3 x 2 grid of map options
+        screenshot_dimensions = {
+            'top': int(top_left_scaled[1] + (((bottom_right_scaled[1] - top_left_scaled[1]) / 2) * int(index / 3))),
+            'left': int(top_left_scaled[0] + (((bottom_right_scaled[0] - top_left_scaled[0]) / 3) * (index % 3))), 
+            'width': int((bottom_right_scaled[0] - top_left_scaled[0]) / 3), 
+            'height': int(text_height_scaled),
+        }
+
+        # Take Screenshot and get text
+        with mss.mss() as screenshotter:
+            screenshot = screenshotter.grab(screenshot_dimensions)
+            found_text, _ocrImage = ocr.getTextFromImage(screenshot)
+            
+            if self.DEBUG:
+                from cv2 import imwrite, IMWRITE_PNG_COMPRESSION
+                def get_valid_filename(s):
+                    s = str(s).strip().replace(' ', '_')
+                    return re.sub(r'(?u)[^-\w.]', '', s)
+                imwrite(f"./DEBUG/OCR_DONE_FOUND_{get_valid_filename(found_text)}_{str(time.time())}.png", _ocrImage, [IMWRITE_PNG_COMPRESSION, 0])
+
+            return found_text
+
+    def select_map(self):
         time.sleep(1)
 
         simulatedinput.click("HOME_MENU_START")
@@ -492,10 +520,71 @@ class Bot():
         
         simulatedinput.click("BEGINNER_SELECTION") # goto first page
 
-        # click to the right page
-        simulatedinput.click("RIGHT_ARROW_SELECTION", amount=(map_page - 1), timeout=0.1)
+        # save off the first map name to check for wrap around
+        initial_first_map_name = self.getMapNameAtIndex(0)
+        current_first_map_name = None # initialize to None so we don't hit break logic on the first loop
+        map_index_counter = 0
+        # tuple with map index and fuzz score
+        highest_fuzz_score_found = (0, 0)
+        
+        # used for debug
+        map_names_extracted_correctly = 0
+        # tuple with map index and fuzz score
+        highest_fuzz_score_found_in_expected = (0, 0)
 
-        simulatedinput.click("MAP_INDEX_" + str(map_index)) # Click correct map
+        # format map selection setting by removing all spaces and underscores
+        formatted_map_selection_setting = self.settings["MAP"].replace("_", "").replace(" ", "").upper()
+        log.debug(f"formatted_map_selection_setting is \"{formatted_map_selection_setting}\"")
+
+        # interate through maps searching for the text.  Exit if we get back to the first page or find the map setting
+        while True:
+            # if we get back to the first page break out of the loop
+            if current_first_map_name == initial_first_map_name:
+                break
+            # check each map in 3x2 grid
+            for i in range(6):
+                map_name = self.getMapNameAtIndex(i)
+                formatted_map_name = map_name.upper()
+
+                if self.DEBUG:
+                    # only do debug if we have an expected maps at the index
+                    if map_index_counter < len(statictest.expected_maps):
+                        log.debug(f"Found map name \"{map_name}\" at index {i}")
+
+                        # loop through all the expected maps checking making sure the highest fuzz score is at the expected index
+                        for expected_map_index in range(len(statictest.expected_maps)):
+                            formatted_expected_map_name = statictest.expected_maps[expected_map_index].replace("_", "").upper()
+                            fuzz_score = fuzz.partial_ratio(formatted_map_name, formatted_expected_map_name)
+                            # keep track of the index of the highest fuzz score found in the expected maps to compare
+                            if fuzz_score > highest_fuzz_score_found_in_expected[1]:
+                                highest_fuzz_score_found_in_expected = (expected_map_index, fuzz_score)
+                        
+                        if highest_fuzz_score_found_in_expected[0] == map_index_counter:
+                            log.debug(f"Correctly identified map at index {map_index_counter}")
+                            map_names_extracted_correctly += 1
+                        else:
+                            log.debug(f"Highest fuzz score was not on the expected map")
+
+                fuzz_score = fuzz.partial_ratio(formatted_map_name, formatted_map_selection_setting)
+                if fuzz_score > highest_fuzz_score_found[1]:
+                    highest_fuzz_score_found = (map_index_counter, fuzz_score)
+
+                map_index_counter += 1
+
+            # click the arrow once
+            simulatedinput.click("RIGHT_ARROW_SELECTION", amount=1, timeout=0.1)
+            current_first_map_name = self.getMapNameAtIndex(0)
+
+        if self.DEBUG:
+            log.debug(f"Found {map_names_extracted_correctly}/{map_index_counter} map names correctly")
+
+        # If we didn't find the map name on any of the pages that match above the threshold then log an error and return 
+        if highest_fuzz_score_found[1] < static.map_selection["MAP_NAME_FUZZ_THRESHOLD"]:
+            raise Exception(f"Unable to find specified map above threshold {highest_fuzz_score_found[1]} < {static.map_selection['MAP_NAME_FUZZ_THRESHOLD']}")
+
+        # click the arrow once
+        simulatedinput.click("RIGHT_ARROW_SELECTION", amount=int(highest_fuzz_score_found[0] / 6), timeout=0.1)
+        simulatedinput.click("MAP_INDEX_" + str(int(highest_fuzz_score_found[0] % 6) + 1)) # Click correct map
 
         if self.SANDBOX:
             simulatedinput.click("EASY_MODE") # Select Difficulty
