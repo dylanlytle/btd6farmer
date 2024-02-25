@@ -229,6 +229,9 @@ class Bot():
                             self.execute_instruction(instruction)
                             instruction["DONE"] = True
                             log.debug(f"Current round {current_round}") # Only print current round once
+                
+                if self.checkFor("ready_for_next_round"):
+                    simulatedinput.send_key("space", amount=1)
 
     def exit_bot(self): 
         self.running = False
@@ -271,6 +274,8 @@ class Bot():
 
         if "SPIKE" in tower_type:
             target_order = static.target_order_spike
+        elif "HELI" in tower_type:
+            target_order = static.target_order_heli
         else:
             target_order = static.target_order_regular
 
@@ -282,7 +287,7 @@ class Bot():
             while current_target_index != target_order.index(i):
                 simulatedinput.send_key("tab")
                 current_target_index+=1
-                if current_target_index > 3:
+                if current_target_index > len(target_order):
                     current_target_index = 0
 
             # If delay is an int sleep for delay for each target
@@ -393,16 +398,11 @@ class Bot():
         return (time.time() - last_used) >= (cooldown / m)
 
     def start_first_round(self):
-        print("Waiting for Start")
-        waiting_for_next_round = False
-        while waiting_for_next_round is False:
-            time.sleep(0.5) # add a short timeout to avoid spamming the cpu
-            waiting_for_next_round = self.checkFor("ready_for_next_round")
         if self.fast_forward:
             simulatedinput.send_key("space", amount=2)
         else:
             simulatedinput.send_key("space", amount=1)
-
+        time.sleep(0.25)
         self.game_start_time = time.time()
 
     def check_for_collection_crates(self):

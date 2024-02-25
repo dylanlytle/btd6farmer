@@ -1,0 +1,456 @@
+{
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "NINJA",
+                "LOCATION": [
+                    0.5015625,
+                    0.7925925925925926        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5015625,
+                    0.7925925925925926        
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ALCHEMIST",        
+                "LOCATION": [
+                    0.5723958333333333,       
+                    0.6685185185185185        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5723958333333333,       
+                    0.6685185185185185        
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",
+                "LOCATION": [
+                    0.390625,
+                    0.6166666666666667        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.35260416666666666,      
+                    0.6611111111111111        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.3359375,
+                    0.8157407407407408        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.2833333333333333,       
+                    0.9018518518518519        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.14270833333333333,      
+                    0.8222222222222222        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.0984375,
+                    0.7138888888888889        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.07708333333333334,      
+                    0.3611111111111111        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.11354166666666667,      
+                    0.2796296296296296        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.134375,
+                    0.18055555555555555       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.175,
+                    0.1361111111111111        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.22395833333333334,      
+                    0.11666666666666667       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.2713541666666667,       
+                    0.09351851851851851       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.31875,
+                    0.06481481481481481       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.36354166666666665,      
+                    0.04259259259259259       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.46145833333333336,      
+                    0.06388888888888888       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.5015625,
+                    0.09259259259259259       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.5692708333333333,       
+                    0.2037037037037037        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.575,
+                    0.06111111111111111       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.575,
+                    0.06111111111111111       
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.615625,
+                    0.04722222222222222       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.615625,
+                    0.04722222222222222       
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.66875,
+                    0.06018518518518518       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.66875,
+                    0.06018518518518518       
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.70625,
+                    0.08611111111111111       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.70625,
+                    0.08611111111111111       
+                ],
+                "UPGRADE_PATH": [
+                    2,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7291666666666666,       
+                    0.17222222222222222       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7380208333333333,       
+                    0.23333333333333334       
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7630208333333334,       
+                    0.2916666666666667        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.8041666666666667,       
+                    0.3416666666666667        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.8192708333333333,       
+                    0.4388888888888889        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.8213541666666667,       
+                    0.5398148148148149        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.8182291666666667,       
+                    0.6592592592592592        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7921875,
+                    0.7527777777777778        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7677083333333333,       
+                    0.8435185185185186        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.7510416666666667,       
+                    0.9611111111111111        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.6328125,
+                    0.9611111111111111        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SUBMARINE",        
+                "LOCATION": [
+                    0.05,
+                    0.662962962962963
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "WAIT",
+            "ARGUMENTS": {
+                "TIME": 0.5
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        }
+    ]
+}

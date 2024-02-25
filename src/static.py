@@ -133,7 +133,8 @@ tower_keybinds = {
     "ENGINEER" : "l",
     "SPIKE" : "j",
     "VILLAGE" : "k",
-    "HERO" : "u"
+    "HERO" : "u",
+    "BEAST" : "i"
 }
 
 # "NAME" : [PAGE, INDEX]
@@ -145,7 +146,7 @@ maps = {
     "THE_CABIN" : [1, 5], 
     "RESORT" : [1, 6],
     "SKATES" : [2, 1],
-    "LOTUS_ISLAND" : [2, 2],
+    "LOTUS_ISLAND" : [2, 5],
     "CANDY_FALLS" : [2, 3],
     "WINTER_PARK" : [2, 4],
     "CARVED" : [2, 5],
@@ -212,3 +213,4 @@ upgrade_keybinds = {
 # Index, regular targets, spike factory targets
 target_order_regular = [ "FIRST", "LAST", "CLOSE", "STRONG" ]
 target_order_spike   = [ "NORMAL", "CLOSE", "FAR", "SMART" ]
+target_order_heli   = [ "FOLLOW_MOUSE", "LOCK_IN_PLACE", "PATROL_POINTS"]

@@ -41,15 +41,14 @@ while True:
         while True:
             if keyboard.is_pressed('p'):
                 os.system('cls')
-                x, y = mouse.get_position()
-                w_norm, h_norm = x / width, y / height
-                print("Step:")
-                print(step.format(tower, w_norm, h_norm))
-                print("Press O to quit or P to continue")
                 while True:
-                    if keyboard.read_key().lower() == 'o':
-                        exit()
-                    elif keyboard.read_key().lower() == 'p':
-                        os.system('cls')
-                        break
-                break
+                    x, y = mouse.get_position()
+                    w_norm, h_norm = x / width, y / height
+                    print("Step:")
+                    print(step.format(tower, w_norm, h_norm))
+                    print("Press O to quit or P to continue")
+                    while True:
+                        if keyboard.read_key().lower() == 'o':
+                            exit()
+                        elif keyboard.read_key().lower() == 'p':
+                            break

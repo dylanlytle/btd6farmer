@@ -1,0 +1,330 @@
+{
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "NINJA",
+                "LOCATION": [
+                    0.5015625,
+                    0.7925925925925926        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5015625,
+                    0.7925925925925926        
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ALCHEMIST",        
+                "LOCATION": [
+                    0.5723958333333333,       
+                    0.6685185185185185        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5723958333333333,       
+                    0.6685185185185185        
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.390625,
+                    0.6166666666666667        
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.3532513181019332,
+                    0.68125
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.3450497949619215,
+                    0.8052083333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.3110720562390158,
+                    0.878125
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.14879906268306972,
+                    0.8447916666666667
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.1259519625073228,
+                    0.7427083333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.05858230814294083,
+                    0.684375
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.04862331575864089,
+                    0.40520833333333334
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.09900410076157,
+                    0.31666666666666665
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.12946690099589925,
+                    0.19583333333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.19097832454598712,
+                    0.13020833333333334
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.2542472173403632,
+                    0.10208333333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.322788517867604,
+                    0.06145833333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.4001171646162859,
+                    0.036458333333333336
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.47510251903925016,
+                    0.065625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.5213825424721734,
+                    0.13125
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.5700058582308143,
+                    0.06458333333333334
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.6379613356766256,
+                    0.03854166666666667
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.7041593438781488,
+                    0.08125
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.7387229056824839,
+                    0.15729166666666666
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.7574692442882249,
+                    0.2625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.8031634446397188,
+                    0.32083333333333336
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.8242530755711776,
+                    0.4864583333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.8154657293497364,
+                    0.6875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.7926186291739895,
+                    0.7739583333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "BUCCANEER",
+                "LOCATION": [
+                    0.7685998828353837,
+                    0.86875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "WAIT",
+            "ARGUMENTS": {
+                "TIME": 0.5
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        }
+    ]
+}

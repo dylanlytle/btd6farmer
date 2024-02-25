@@ -1,0 +1,188 @@
+{
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "NINJA",
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ALCHEMIST",
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.04803749267721148,
+                    0.334375
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.11423550087873462,
+                    0.33229166666666665
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.17926186291739896,
+                    0.33229166666666665
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.4176918570591681,
+                    0.646875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.4803749267721148,
+                    0.640625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.5424721734036321,
+                    0.6385416666666667
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.5969537199765671,
+                    0.5927083333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.60398359695372,
+                    0.503125
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.3503222026947862,
+                    0.6927083333333334
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.450497949619215,
+                    0.7989583333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.507908611599297,
+                    0.796875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.5659050966608085,
+                    0.790625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "SPIKE",
+                "LOCATION": [
+                    0.6291739894551845,
+                    0.7864583333333334
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        }
+    ]
+}

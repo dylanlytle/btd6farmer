@@ -1,0 +1,250 @@
+{
+    "31": [
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "NINJA",
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.330078125,
+                    0.3680555555555556
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "ALCHEMIST",
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "UPGRADE_TOWER",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.390625,
+                    0.2673611111111111
+                ],
+                "UPGRADE_PATH": [
+                    4,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.140597539543058,
+                    0.30520833333333336
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.140597539543058,
+                    0.30520833333333336
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.27709431751611013,
+                    0.890625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.27709431751611013,
+                    0.890625
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.09900410076157,
+                    0.6177083333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.09900410076157,
+                    0.6177083333333333
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.6004686584651435,
+                    0.2635416666666667
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.6004686584651435,
+                    0.2635416666666667
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.7152899824253075,
+                    0.45416666666666666
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.7152899824253075,
+                    0.45416666666666666
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.7117750439367311,
+                    0.671875
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.7117750439367311,
+                    0.671875
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.5700058582308143,
+                    0.8083333333333333
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.5700058582308143,
+                    0.8083333333333333
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "PLACE_TOWER",
+            "ARGUMENTS": {
+                "MONKEY": "HELI",
+                "LOCATION": [
+                    0.45518453427065025,
+                    0.865625
+                ]
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "CHANGE_TARGET",
+            "ARGUMENTS": {
+                "LOCATION": [
+                    0.45518453427065025,
+                    0.865625
+                ],
+                "TARGET": [
+                    "PATROL_POINTS"
+                ],
+                "TYPE": "HELI",
+                "DELAY": 3
+            }
+        },
+        {
+            "INSTRUCTION_TYPE": "START",
+            "ARGUMENTS": {
+                "FAST_FORWARD": true
+            }
+        }
+    ]
+}
